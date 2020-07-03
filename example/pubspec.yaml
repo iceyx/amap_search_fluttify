@@ -1,0 +1,22 @@
+name: amap_search_fluttify_example
+description: Demonstrates how to use the amap_search_fluttify plugin.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+  permission_handler: ^5.0.0
+  decorated_flutter: ^0.12.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  amap_search_fluttify:
+    path: ../
+
+flutter:
+  uses-material-design: true
